@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistema de Alerta Temprana de Inundaciones - Presidente Franco</title>
+    <meta name="description" content="Sistema de telemetría meteorológica y alerta temprana de inundaciones basado en Windy API para Presidente Franco, Paraguay." />
+    <meta property="og:title" content="Sistema de Alerta Temprana de Inundaciones - Presidente Franco" />
+    <meta property="og:description" content="Sistema de telemetría meteorológica y alerta temprana de inundaciones basado en Windy API para Presidente Franco, Paraguay." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <!-- Windy Map API boot script -->
+    <script src="https://api.windy.com/assets/map-forecast/libBoot.js"></script>
+    <!-- Leaflet CSS & JS for Fallback Map -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  </head>
+  <body class="bg-slate-950 text-slate-100 antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

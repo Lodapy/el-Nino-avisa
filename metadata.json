@@ -1,0 +1,7 @@
+{
+  "name": "Sistema de Alerta Temprana de Inundaciones - Presidente Franco",
+  "description": "Sistema de telemetría meteorológica y alerta temprana de inundaciones basado en Windy API para Presidente Franco, Paraguay.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
